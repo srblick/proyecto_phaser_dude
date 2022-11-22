@@ -8,7 +8,7 @@ class Escena extends Phaser.Scene{
     score = 0;
     scoreText;
     bombs;
-    gameOver;
+    gameOver = false;
 
     preload ()
     {
